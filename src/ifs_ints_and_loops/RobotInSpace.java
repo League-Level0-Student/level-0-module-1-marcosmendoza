@@ -15,7 +15,11 @@ public class RobotInSpace implements KeyEventDispatcher {
 
 	/*
 	 * Make the Robot move around the screen when the arrow keys are pressed...
-	 * 
+
+if(key.pressed == true)
+          {
+          rob.move(10)
+
 	 * 1. IMPORTANT: For this recipe, use rob.microMove(distance) to move your
 	 * Robot and rob.setAngle(angle) to change the direction of your Robot. //Do
 	 * not add code here - go to step 2
@@ -34,8 +38,36 @@ public class RobotInSpace implements KeyEventDispatcher {
 		// 6. If right is pressed, move the Robot right.
 
 		// 7. Run your program and move the Robot to RD-2D for a surprise!
+		
+		
+		
+		if(keyPressed==37);
+		{
+			rob.setAngle(120);
+			rob.microMove(1);
+		}
+		
+		
+		if(keyPressed==38);
+		{
+			rob.setAngle(360);
+			rob.microMove(1);
+		}
+		
+		if(keyPressed==39);
+		{
+			
+			rob.setAngle(90);
+		}
+		
+		if(keyPressed==40);
+		{
+			rob.setAngle(-360);
+			rob.microMove(1);
+		}
 	}
-
+	
+	
 	private void checkIfR2D2Found() throws Exception {
 		int robotLocationX = rob.getX();
 		int robotLocationY = rob.getY();
