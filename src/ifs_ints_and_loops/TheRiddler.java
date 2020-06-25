@@ -10,6 +10,19 @@ import javax.swing.JOptionPane;
 public class TheRiddler {
 	public static void main(String[] args) {
 		int score = 0;
+		
+		String answer4=JOptionPane.showInputDialog("I am faster than light but slower than a turtle. Im as big as a star but im as tiny as a molecule. What am i?");
+		 
+		if(answer4.equals("the universe")) {
+			
+			JOptionPane.showInputDialog("correct");
+		}
+				
+		String answer3=JOptionPane.showInputDialog("What is greater than god, more evil than the devil, the poor have it, the rich dont need it, and if you eat it you'll die?");
+		
+		if(answer3.equals("nothing")) {
+			JOptionPane.showInputDialog("Correct.");
+		}
 	String answer=JOptionPane.showInputDialog("Feed me and I live, yet give me a drink and I die. what am i");
 	
           if(answer.equals("fire")) { 
@@ -35,6 +48,71 @@ public class TheRiddler {
   	        	  else {
   	        		  JOptionPane.showMessageDialog(null, "no");
   	        	  }
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
+  	        	  
   	          
 		
 		

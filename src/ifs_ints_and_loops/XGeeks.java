@@ -15,12 +15,31 @@ import javax.swing.JOptionPane;
 public class XGeeks {
 public static void main(String[] args) {
 
-		// 1. Save the superpower for each person in a variable.
+	String question=JOptionPane.showInputDialog("whos superpower do you want to know? here is a list:   june , john , bob , jack , tom , jim , back , trunk , Jean Francois Grenouillie , Sir Lexington Egor the fiftieth ,  ");
+	
+	if(question.equals("june")) {
+	
+	JOptionPane.showMessageDialog(null, "june's superpower is WRITING RECIPES");
+		
+	}
+	
+	if(question.equals("john")) {
+		
+		JOptionPane.showMessageDialog(null, "june's superpower is SUPER STRENGTH");
+			
+		}
+	
+	
+	
+	
+}
+
+
+}
+
+
+// 1. Save the superpower for each person in a variable.
 
 		// 2. Ask the user to enter a name. Store their answer in a variable.
 
 		// 3. Show the superpower in a pop-up, depending on the name entered. 
-
-	}
-}
-
