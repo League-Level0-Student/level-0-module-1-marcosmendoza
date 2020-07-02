@@ -28,7 +28,7 @@ public class SecretMessageBox {
 			
 			if(correct.equals("yes")) {
 				
-				JOptionPane.showMessageDialog(null, "the secret message is " +message);
+				JOptionPane.showMessageDialog(null, "the secret message is: " +message);
 			}
 			
 			if(correct.equals("no")) {

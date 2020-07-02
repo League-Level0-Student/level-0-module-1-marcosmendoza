@@ -40,29 +40,35 @@ if(key.pressed == true)
 		// 7. Run your program and move the Robot to RD-2D for a surprise!
 		
 		
+		rob
 		
-		if(keyPressed==37);
+		
+		rob.penDown();
+		rob.setPenColor(255,0,0);
+		
+		if(keyPressed==37)
 		{
-			rob.setAngle(120);
+			rob.setAngle(-90);
 			rob.microMove(1);
 		}
 		
 		
-		if(keyPressed==38);
+		if(keyPressed==38)
 		{
 			rob.setAngle(360);
 			rob.microMove(1);
 		}
 		
-		if(keyPressed==39);
+		if(keyPressed==39)
 		{
+			rob.microMove(1);
 			
 			rob.setAngle(90);
-		}
+		} 
 		
-		if(keyPressed==40);
+		if(keyPressed==40)
 		{
-			rob.setAngle(-360);
+			rob.setAngle(-180);
 			rob.microMove(1);
 		}
 	}
